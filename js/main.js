@@ -2,7 +2,7 @@ const user1={username :"ali",language:"Spanish"}
 const user2={};
 
 const getWelcome =({username,language,...rest}) =>{
-   const result = `Hello ${username??"(cant find Your name)"} welcome to our site in ${language??"(cant find Your language)"}`;
+   const result = `Hello ${username??"(Gust)"} welcome to our site in ${language??"(English)"}`;
    alert(result);
    return result;
     }
